@@ -3,10 +3,11 @@ name = "era_date"
 version = "0.1.0"
 edition = "2021"
 authors = ["Magnus Manske <magnusmanske@googlemail.com>"]
+keywords = ["Date and time", "Value formatting"]
 repository = "https://github.com/magnusmanske/era-date"
 description = "A crate to generate text descriptions for date precisions, from day (ISO) to millennium"
 license = "MIT"
 readme = "README.md"
 
 [dependencies]
-time = "*"
+time = "^0.3"
